@@ -9,5 +9,5 @@ void runUnitTests(){
 }
 
 int addSum(int a, int b){
- return a; 
+ return a+b; 
 }
