@@ -9,5 +9,9 @@ void runUnitTests(){
 
 
 void unitTest1(){
-   compareInts(0,search(liste,"V").length,"search input 'a', return no results."); 
+   int antalResultater   = search(liste,"V").length;
+   int antalRigtigtSvar  = 0;
+   
+   compareInts(antalRigtigtSvar,antalResultater,"search input 'a', return no results."); 
+
 }
